@@ -18,18 +18,52 @@
     </div>
 
     <form>
-        <fieldset class="campos">
-            <div class="campos">
+        <fieldset class="groups">
+            <div class="camps">
                 <label for="nomeCompleto">Digite seu nome completo:</label>
-                <input type="text" name="nomeCand" id="nomeCand" required>
+                <input type="text" name="nomeCand" id="nameCand" required>
             </div>
         </fieldset>
 
-        <div class="campos">
+        <div class="camps">
             <label for="email">Digite seu email:</label>
             <input type="email" name="email" id="email" required>
         </div>
 
+        <div class="camps">
+            <label for="areaAtaucao">Você desenvolve do lado front-end, back-end ou fullstack?</label>
+            <label>
+                <input type="radio" name="ladoDev" value="front-end">Front-end
+            </label>
+            <label>
+                <input type="radio" name="ladoDev" value="back-end">Back-end
+            </label>
+            <label>
+                <input type="radio" name="ladoDev" value="fullstack">Fullstack
+            </label>
+        </div>
+
+        <div class="camps">
+            <label for="nivelCandidato">Atualmente qual seu nível de senioridade:</label>
+            <select id="candLvl" required>
+                <option selected disabled value="">Selecione</option>
+                <option>Dev. Júnior</option>
+                <option>Dev. Pleno</option>
+                <option>Dev. Sênior</option>
+            </select>
+        </div>
+
+        <fieldset class="groups">
+            <div id="tecs">
+                <label>Quais são as tecnologias que você utiliza?</label>
+                <input type="checkbox" id="tec1" name="tec1" value="Html">
+                <label for="tec1">HTML</label>
+                <input type="checkbox" id="tec2" name="tec2" value="Css">
+                <label for="tec2">CSS</label>
+                <input type="checkbox" id="tec3" name="tec3" value="Python">
+                <label for="tec3">Python</label>
+            </div>
+        </fieldset>
     </form>
 
 </body>
