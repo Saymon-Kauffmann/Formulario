@@ -21,6 +21,7 @@ fieldset {
 }
 
 form {
+    padding: 1em;
     background-color: white;
     width: 50em;
     text-align: center;
@@ -41,6 +42,46 @@ form {
     font-size: 1.2em;
 }
 
+.camps label {
+    margin-bottom: 0.5em;
+    display: block;
+    margin: auto;
+}
+
+.camps input[type="text"], .camps input[type="email"], .camps select, .camps texarea  {
+    display: block;
+    padding: 0.3em;
+    border: 1px solid #385370;
+    box-shadow: 2px 2px 2px #27394d60;
+    margin: auto;
+} 
+
+.camps input:focus, .camps select:focus, .camps textarea:focus {
+    background: #C2D9F2;
+}
+
 .groups:before, .groups:after {
+    display: table;
+}
+
+.groups:after {
     clear: both;
 }
+
+.button {
+    font-size: 0.9em;
+    background: #5A6570;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em;
+    box-shadow: 2px 2px 2px #48515a94;
+    top: 90%;
+    left: 50%;
+}
+
+.button:hover {
+    background: #3a4047;
+    box-shadow: 2px 2px 2px #3a4047ab;
+}
+
+
