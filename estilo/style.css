@@ -33,6 +33,7 @@ form {
     color: #385370;
     text-align: center;
     margin: auto;
+    text-shadow: 1px 1px 1px #344a639c;
 }
 
 #infos {
@@ -60,7 +61,12 @@ form {
 
 
 #GitHub {
-    margin-left: -14.8em;
+    margin-left: -12.6em;
+}
+
+#GitHub::after {
+    content: ' (link) ';
+    color: gray
 }
 
 #GitHub2 {
