@@ -23,7 +23,7 @@ fieldset {
 form {
     padding: 1em;
     background-color: white;
-    width: 50em;
+    width: 35em;
     text-align: center;
     margin: auto;
     border-radius: 1em;
@@ -42,13 +42,43 @@ form {
     font-size: 1.2em;
 }
 
+#nameCand {
+    width: 30em;
+}
+
+#candName {
+    margin-left: -13em;
+}
+
+#candEmail {
+    width: 30em;
+}
+
+#emailCand {
+    margin-left: -17.8em;
+}
+
+
+#tiposDev {
+    margin-left: -6em;
+}
+
 .camps label {
     margin-bottom: 0.5em;
     display: block;
     margin: auto;
+    margin-left: 1.5em;
 }
 
-.camps input[type="text"], .camps input[type="email"], .camps select, .camps texarea  {
+.camps select {
+    margin-left: -23.5em;
+}
+
+.camps input[type="radio"] {
+    margin-left: -26em;
+}
+
+.camps input[type="text"], .camps input[type="email"]  {
     display: block;
     padding: 0.3em;
     border: 1px solid #385370;
@@ -58,6 +88,24 @@ form {
 
 .camps input:focus, .camps select:focus, .camps textarea:focus {
     background: #C2D9F2;
+}
+
+#tecslab {
+    margin-left: -10.6em;
+}
+
+.tecs {
+    margin-left: 4.3em;
+}
+
+
+#lablExp {
+    margin-left: 3em;
+}
+
+#textArea {
+    margin-left: 3.8em;
+    width: 34em;
 }
 
 .groups:before, .groups:after {

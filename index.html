@@ -20,15 +20,15 @@
     <form>
         <fieldset class="groups">
             <div class="camps">
-                <label for="nomeCompleto">Digite seu nome completo:</label>
+                <label for="nomeCompleto" id="candName">Digite seu nome completo:</label>
                 <input type="text" name="nomeCand" id="nameCand" required>
             </div>
-        </fieldset>
+        </fieldset><br>
 
         <div class="camps">
-            <label for="email">Digite seu email:</label>
-            <input type="email" name="email" id="email" required>
-        </div>
+            <label for="email" id="emailCand">Digite seu email:</label>
+            <input type="email" name="email" id="candEmail" required>
+        </div><br>
 
         <div class="camps">
             <label for="areaAtaucao">Você desenvolve do lado front-end, back-end ou fullstack?</label>
@@ -41,21 +41,22 @@
             <label>
                 <input type="radio" name="ladoDev" value="fullstack">Fullstack
             </label>
-        </div>
+        </div><br>
 
         <div class="camps">
-            <label for="nivelCandidato">Atualmente qual seu nível de senioridade:</label>
+            <p id="tiposDev">Atualmente qual seu nível de senioridade:</p>
             <select id="candLvl" required>
                 <option selected disabled value="">Selecione</option>
                 <option>Dev. Júnior</option>
                 <option>Dev. Pleno</option>
                 <option>Dev. Sênior</option>
             </select>
-        </div>
+        </div><br>
 
         <fieldset class="groups">
-            <div id="tecs">
-                <label>Quais são as tecnologias que você utiliza?</label>
+            <div class="tecs">
+                <label id="tecslab">Quais são as tecnologias que você utiliza?</label>
+                <br>
                 <input type="checkbox" id="tec1" name="tec1" value="Html">
                 <label for="tec1">HTML</label>
                 <input type="checkbox" id="tec2" name="tec2" value="Css">
@@ -73,13 +74,13 @@
                 <input type="checkbox" id="tec8" name="tec8" value="PHP">
                 <label for="tec8">PHP</label>
             </div>
-        </fieldset>
+        </fieldset><br>
 
 
         <div class="camps">
-            <br>
-            <label for="workExp">Diga um pouco sobre você e sua experiência de trabalho: </label>
-            <textarea id="textArea" name="textArea" rows="10" style="width: 26em"></textarea>
+          
+            <label for="workExp" id="lablExp">Nos diga um pouco sobre você e sua experiência de trabalho: </label>
+            <textarea id="textArea" name="textArea" rows="8"></textarea>
         </div>
 
         <button type="submit" onsubmit="" class="button">Concluir e enviar</button> 
