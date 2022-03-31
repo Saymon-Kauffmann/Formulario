@@ -47,7 +47,7 @@ form {
 }
 
 #candName {
-    margin-left: -13em;
+    margin-left: -12.4em;
 }
 
 #candEmail {
@@ -55,19 +55,31 @@ form {
 }
 
 #emailCand {
-    margin-left: -17.8em;
+    margin-left: -17.4em;
 }
 
 
+#GitHub {
+    margin-left: -14.8em;
+}
+
+#GitHub2 {
+    width: 30em;
+}
+
 #tiposDev {
-    margin-left: -6em;
+    margin-left: -4.6em;
+}
+
+#areaAt {
+    margin-left: 3.4em;
 }
 
 .camps label {
     margin-bottom: 0.5em;
     display: block;
     margin: auto;
-    margin-left: 1.5em;
+    margin-left: 1.8em;
 }
 
 .camps select {
@@ -91,16 +103,16 @@ form {
 }
 
 #tecslab {
-    margin-left: -10.6em;
+    margin-left: -9.1em;
 }
 
 .tecs {
-    margin-left: 4.3em;
+    margin-left: 4.2em;
 }
 
 
 #lablExp {
-    margin-left: 3em;
+    margin-left: 3.5em;
 }
 
 #textArea {
@@ -121,10 +133,9 @@ form {
     background: #5A6570;
     border: 0;
     color: #ffffff;
-    padding: 0.2em;
+    padding: 0.4em;
     box-shadow: 2px 2px 2px #48515a94;
-    top: 90%;
-    left: 50%;
+    border-radius: 1em;
 }
 
 .button:hover {

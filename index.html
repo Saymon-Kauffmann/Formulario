@@ -12,26 +12,31 @@
 
 <body>
 
-    <div>
-        <h1 id="pcpTitle">Cadastro dos candidatos</h1>
-        <p id="infos">Complete o questionário a seguir com suas informações</p>
-    </div>
+        <div>
+            <h1 id="pcpTitle">Cadastro dos candidatos</h1>
+            <p id="infos">Complete o questionário a seguir com suas informações</p>
+        </div>
 
     <form>
         <fieldset class="groups">
             <div class="camps">
-                <label for="nomeCompleto" id="candName">Digite seu nome completo:</label>
+                <label for="nomeCompleto" id="candName"><b>Digite seu nome completo:</b></label>
                 <input type="text" name="nomeCand" id="nameCand" required>
             </div>
         </fieldset><br>
 
         <div class="camps">
-            <label for="email" id="emailCand">Digite seu email:</label>
+            <label for="email" id="emailCand"><b>Digite seu email:</b></label>
             <input type="email" name="email" id="candEmail" required>
         </div><br>
 
         <div class="camps">
-            <label for="areaAtaucao">Você desenvolve do lado front-end, back-end ou fullstack?</label>
+            <label for="GitHub" id="GitHub"><b>Conta do GitHub:</b>[link]</label>
+            <input type="text" name="Github" id="GitHub2">
+        </div><br>
+
+        <div class="camps">
+            <label for="areaAtaucao" id="areaAt"><b>Você desenvolve do lado front-end, back-end ou fullstack?</b></label>
             <label>
                 <input type="radio" name="ladoDev" value="front-end">Front-end
             </label>
@@ -44,7 +49,7 @@
         </div><br>
 
         <div class="camps">
-            <p id="tiposDev">Atualmente qual seu nível de senioridade:</p>
+            <p id="tiposDev"><b>Atualmente qual seu nível de senioridade:</b></p>
             <select id="candLvl" required>
                 <option selected disabled value="">Selecione</option>
                 <option>Dev. Júnior</option>
@@ -55,7 +60,7 @@
 
         <fieldset class="groups">
             <div class="tecs">
-                <label id="tecslab">Quais são as tecnologias que você utiliza?</label>
+                <label id="tecslab"><b>Quais são as tecnologias que você utiliza?</b></label>
                 <br>
                 <input type="checkbox" id="tec1" name="tec1" value="Html">
                 <label for="tec1">HTML</label>
@@ -79,9 +84,9 @@
 
         <div class="camps">
           
-            <label for="workExp" id="lablExp">Nos diga um pouco sobre você e sua experiência de trabalho: </label>
+            <label for="workExp" id="lablExp"><b>Conte um pouco sobre você e sua experiência de trabalho:</b></label>
             <textarea id="textArea" name="textArea" rows="8"></textarea>
-        </div>
+        </div><br>
 
         <button type="submit" onsubmit="" class="button">Concluir e enviar</button> 
 
